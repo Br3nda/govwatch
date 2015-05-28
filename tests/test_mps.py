@@ -1,4 +1,4 @@
-import nose
+#import nose
 import unittest
 
 
@@ -15,4 +15,4 @@ class TestMPs(unittest.TestCase):
     response = feedparser.parse(rss_feed_url)
     assert len(response['entries']) == 121
 
-unittest.main()
+# unittest.main()
