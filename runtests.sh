@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nosetests 
+nosetests  --with-xunit
