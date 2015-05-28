@@ -2,5 +2,5 @@ script: ./runtests.sh
 
 python:
   - "3.2"
-install: "pip install -r requirements.txt"
+install: "sudo pip install -r requirements.txt"
 
