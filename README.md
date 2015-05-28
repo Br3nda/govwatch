@@ -1,6 +1,4 @@
-![Status](https://travis-ci.org/NZGovWatch/govwatch.svg?branch=master)
-
-
+[![Build Status](https://travis-ci.org/NZGovWatch/govwatch.svg?branch=master)](https://travis-ci.org/NZGovWatch/govwatch)
 
 # govwatch
 Watcher for government apis
