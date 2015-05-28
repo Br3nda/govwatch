@@ -1,0 +1,4 @@
+script: ./runtests.sh
+
+python:
+  - "3.2"
