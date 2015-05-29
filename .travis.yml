@@ -1,8 +1,11 @@
 script: nosetests 
 
 python:
-  - "3.2"
-install: "sudo pip install -r requirements.txt"
+  - "3.4"
+
+install:
+  - "pip install ."
+  - "sudo pip install -r requirements.txt"
 
 sudo: true
 
