@@ -1,4 +1,4 @@
-script: ./runtests.sh
+script: nosetests 
 
 python:
   - "3.2"
