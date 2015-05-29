@@ -3,9 +3,6 @@ script: nosetests
 python:
   - "3.4"
 
-install:
-  - "pip install ."
-  - "sudo pip install -r requirements.txt"
-
 sudo: true
+install: "sudo pip install -r requirements.txt"
 
